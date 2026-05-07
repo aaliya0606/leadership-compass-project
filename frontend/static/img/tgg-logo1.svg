@@ -1,0 +1,5 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TGG Logo">
+  <rect width="48" height="48" rx="12" fill="white" />
+  <polygon points="8,34 30,34 24,22" fill="#D4D4D4" />
+  <polygon points="28,8 44,40 24,22" fill="#7F7F7F" />
+</svg>

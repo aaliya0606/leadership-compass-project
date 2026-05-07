@@ -1,0 +1,383 @@
+:root {
+  --brand-dark: #00284B;
+  --brand-green: #64BC28;
+  --brand-light-green: #96DA5F;
+  --brand-surface: #FFFFFF;
+  --brand-muted: #E5E8E8;
+  --brand-text: #10263A;
+}
+
+body {
+  background: #E5E8E8;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: var(--brand-text);
+}
+
+/* Center everything */
+.auth-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Card container */
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* Improve inputs */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Button style */
+.btn {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Small text spacing */
+p {
+  font-size: 14px;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, rgba(0, 40, 75, 0.95), rgba(100, 188, 40, 0.95));
+  color: white;
+}
+
+.hero-card h1,
+.hero-card .eyebrow,
+.hero-card p {
+  color: white;
+}
+
+.hero-card .lead {
+  opacity: 0.9;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  opacity: 0.85;
+}
+
+.hero-panel {
+  background: var(--brand-light-green);
+  color: var(--brand-dark);
+}
+
+.hero-panel h5 {
+  color: var(--brand-dark);
+}
+
+.hero-panel .plan-highlights li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(0, 40, 75, 0.08);
+  color: var(--brand-dark);
+}
+
+.plan-highlights li:last-child {
+  border-bottom: none;
+}
+
+.overview-card {
+  border: 1px solid rgba(0, 40, 75, 0.12);
+  background: white;
+}
+
+.overview-label {
+  display: inline-block;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--brand-green);
+}
+
+.section-header h4 {
+  margin-bottom: 0.5rem;
+}
+
+.week-card,
+.module-card {
+  border: 1px solid rgba(0, 40, 75, 0.08);
+  box-shadow: 0 12px 30px rgba(0, 40, 75, 0.06);
+}
+
+.week-card .list-group-item,
+.module-card .list-group-item {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn-hero {
+  background: var(--brand-light-green);
+  border-color: var(--brand-dark);
+  color: var(--brand-dark);
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background: var(--brand-green);
+  border-color: var(--brand-green);
+  color: var(--brand-surface);
+}
+
+.badge-soft-primary {
+  background: rgba(0, 40, 75, 0.1);
+  color: var(--brand-dark);
+}
+
+.badge-soft-secondary {
+  background: rgba(100, 188, 40, 0.12);
+  color: var(--brand-dark);
+}
+
+.badge-soft-success {
+  background: rgba(150, 218, 95, 0.2);
+  color: var(--brand-dark);
+}
+
+.badge-soft-info {
+  background: rgba(0, 112, 192, 0.14);
+  color: var(--brand-dark);
+}
+
+.badge-soft-warning {
+  background: rgba(255, 193, 7, 0.12);
+  color: #5a5a00;
+}
+
+.card .btn-outline-primary {
+  border-color: rgba(0, 40, 75, 0.15);
+  color: var(--brand-dark);
+}
+
+.card .btn-outline-primary:hover,
+.card .btn-outline-primary:focus {
+  background: rgba(100, 188, 40, 0.1);
+  border-color: var(--brand-green);
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 40, 75, 0.12);
+}
+
+.btn-light {
+  background: var(--brand-surface);
+  color: var(--brand-dark);
+  border: 1px solid rgba(0, 40, 75, 0.12);
+}
+
+#resourceContainer .card {
+  min-height: 220px;
+}
+
+.badge {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, var(--brand-dark), var(--brand-green));
+  border-bottom: 4px solid var(--brand-light-green);
+}
+
+.brand-title {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.navbar-logo {
+  width: 36px;
+  height: 36px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+h1, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+  color: var(--brand-dark);
+}
+
+.dashboard-card,
+.card {
+  background: var(--brand-surface);
+  border: 1px solid rgba(0, 40, 75, 0.08);
+}
+
+.card-header {
+  background: var(--brand-light-green);
+  color: var(--brand-dark);
+  border-bottom: 1px solid rgba(0, 40, 75, 0.12);
+}
+
+.card-body {
+  color: var(--brand-text);
+}
+
+.btn-primary {
+  background: var(--brand-green);
+  border-color: var(--brand-green);
+  color: var(--brand-surface);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #5AA823;
+  border-color: #5AA823;
+}
+
+.btn-light {
+  background: var(--brand-surface);
+  color: var(--brand-dark);
+  border: 1px solid rgba(0, 40, 75, 0.12);
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 40, 75, 0.12);
+}
+
+#resourceContainer .card {
+  min-height: 220px;
+}
+
+.badge {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.survey-body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  flex-direction: column;
+}
+
+.survey-container {
+  background: #96DA5F;
+  border-radius: 1vh;
+  box-shadow: 40px 40px 0px -5px #64BC28, 50px 50px 10px -5px rgba(0, 0, 0, 0.2), 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+  min-width: 55%;
+  max-width: 55%;
+  min-height: 45%; 
+  max-height: 45%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1em; 
+  padding: 1vh; 
+}
+
+.survey-container-heading {
+  width: 100%;
+  min-height: 10%;
+  font-size: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.survey-container-p-text {
+  font-size: 2.5vh;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.survey-button {
+  border-radius: 8vh;
+  background-color: #00284B;
+  color: #E5E8E8;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2); 
+  border: none;
+  min-width: 10rem;
+  min-height: 3rem;
+}
+
+.survey-button:hover {
+  background-color:#E5E8E8;
+  color: #00284B;
+  border-color: #00284B;
+  transition: 0.7s;
+}
+
+.progress-bar {
+  width: 80%;
+  min-height: 5%;
+}
+
+.survey-progress-wrapper {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto 1.75rem auto;
+  padding: 0 0.25rem;
+}
+
+.survey-progress-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.45rem;
+}
+
+.survey-progress-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+}
+
+.survey-progress-count {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #9ca3af;
+}
+
+.survey-progress-track {
+  width: 100%;
+  height: 8px;
+  background: #6b7280;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.survey-progress-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, #16a34a 0%, #22c55e 100%);
+  width: 0%;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
